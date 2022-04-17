@@ -30,6 +30,10 @@ func (t *template) Download(uri string) {
 	fmt.Println("finish downloading")
 }
 
+func (t *template) download() {
+	panic("implement download method")
+}
+
 func (t *template) save() {
 	fmt.Println("default save")
 }
